@@ -11,8 +11,8 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("div#pay").click(function(event){
-     whatToSay = "Thank You '.fullnames' for buying with us!";
+  $("#pay").click(function(event){
+     whatToSay = "Thank You for buying with us!";
      alert(whatToSay);
 });
   });
